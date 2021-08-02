@@ -1,0 +1,48 @@
+.detail {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail__infos {
+    display: flex;
+}
+
+.detail__header {
+    margin: 20px 0;
+    padding: 12px;
+}
+
+.detail__img {
+  width: 400px;
+  margin: 0 40px 0 0;
+  justify-content: center;
+}
+
+.detail__img img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.detail__description {
+  font-size: 14px;
+  color: var(--cor--principal);
+  max-width: 400px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .detail__infos {
+    flex-direction: column;
+  }
+
+  .detail__img {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .detail__img img {
+    border-radius: 0;
+  }
+}

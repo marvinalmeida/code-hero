@@ -1,0 +1,14 @@
+.search-title h1{
+    font-weight: 32px;
+    color: var(--cor--principal);
+    margin-bottom: 15px;
+}
+
+.search-title h2 {
+    margin-bottom: 10px;
+    color: var(--cor--principal);
+}
+
+.input{
+    height: 45px;
+}

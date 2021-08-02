@@ -1,0 +1,26 @@
+.search{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    max-width: 294px;
+    font-size: 14px;
+    height: 32px;
+    justify-content: space-between;
+    padding: 6px 16px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    color: #8E8E8E;
+}
+
+.search input{
+    border: none;
+    padding: 4px 6px;
+}
+
+.search svg{
+    cursor: pointer;
+}
+
+.search input:focus{
+    outline: none;
+}

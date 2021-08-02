@@ -1,0 +1,16 @@
+.header{
+    max-width: 71rem;
+    margin: 0 auto 20px auto;
+    padding: 12px;
+}
+
+.titles {
+    letter-spacing: 0px;
+    color:#555555;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.titles h2 {
+    font-size: 16px
+}

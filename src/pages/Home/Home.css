@@ -1,0 +1,63 @@
+.container {
+    max-width: 71rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+.container2 {
+  display: flex;
+  align-items: center;
+  top: 278px;
+  left: 113px;
+  height: 88px;
+  margin: 5px 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 5px #00000033;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.img {
+  border-radius: 5px;
+  width: 48px;
+}
+
+.info-text,
+li {
+  padding-left: 100px;
+  font-size: 14px;
+  font-weight: 14px;
+  text-transform: initial;
+  color: var(--cor--principal);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  width: 27.3%;
+}
+.name-hero {
+  padding-left: 30px;
+  color: var(--cor--principal);
+  font-size: bold;
+}
+
+.series-events {
+  display: flex;
+}
+.info-hero {
+  padding-left: 31px;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  color: #8E8E8E;
+}
+
+.pagination {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
